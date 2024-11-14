@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8NDw0NDQ0QDQ0NEBINDQ0NEBANDQ0NFRIWFhURFRUYHSggGBolGxUVITEhJSkrOi4uFx8/OD84Nyg5OisBCgoKDg0NFQ0NFSsZFRkrLS03LSsrKy03Ny0rKystLS03LS0rNy0tLS0tNysrLTc3Ny0tNystKy03Ny0tKy0tK//AABEIAKgBLAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIHA//EACYQAQAABQUAAgMBAQEAAAAAAAADMdHh8AIUQVOSARFRYcGhsSH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOIAKKACoAigApZFsAAC3LJfktyC3Vm/LWTAuJfkr+QU+/8Av8TJrX8/oEVMmZMD7/gnxn/pkwLFyxcAABAARUAAFQBAAAAUURQAMmCiZMyYirbhMmW5BS3Bky3IBbgyZbkFvwJflcmBklyTOTWv5AyS1/jOTWv5/QGSEyZkwW3CZItyZMC3BfgtyX5AQyZkwATJgqGTBT5D5QABABAUAFEVQABRARSwW5BSxk0tyCljJluQLr9pfkyYH2qZMyYC5/iZMyf6ADJmTAsFuTJgWLluUvyCoZMyYAICoAoCIAAAICgAAAoCioAKBbkQWyZMyYKJk1yYFxL8rkwBMmuTAM/xMmuTAEya5MCwmTMmC5JDJmTADJgCAKAAICAACAAoAAAKIKKAClkAUQEUEBbqyoKIAKgAqAAAAgCoAoAAIAAIAIAioDQn2AoCgAgogCgKKgAomTAFQEUTJgKIuTAEyagCAAZMFAAEVEFQFAABPtUQQABftAGkAFAAABRAFEUAD7UFQAVAAABUAAAAQFQAAEAEBU+w+wPtAAAAABfg+EX4BRPgBRBRQEBUFFEEFEFFEEFEFFEEFEAAAAAAQFD7T7A+flFQAAAAAAAAFEAVWVBRFAAAAAAAAAAAAAAAAABAVBAUQAAAAABAURQAAAAAAFQBVZUFEAURfkARQBFAE+AFEAAAEAFQAAAAAAQAAHvs4vTE8aqGzi9MTxqoAGzi9MTxqouzi9MTxqogC7OL1RPGqhs4vTE8aqABs4vTE8aqGzi9MTxqoAGzi9MTxqobOL0xPGqgAbOL0xPGqhs4vTE8aqABs4vVE8aqGzi9UTxqoAGzi9UTxqobOL1RPGqgAbOL1RPGqhs4vVE8aqABs4vVE8aqGzi9UTxqoAGzi9UTxqobOL1RPGqgAbOL1RPGqhs4vVE8aqABs4vTE8aqGzi9MTxqoAGzi9MTxqobOL0xPGqgAbOL0xPGqhs4vTE8aqABs4vTE8aqGzi9UTxqogC7OL1RPGqibOL0xPGqgAbOL0xPGqhs4vTE8aqABs4vTE8aqGzi9MTxqoAP/9k=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.atm {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.screen {
+    background-color: #222;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#screenText {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.buttons button {
+    background-color: #666;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.key {
+    background-color: #555;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#amountInput {
+    grid-column: span 3;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #fff;
+    color: #333;
+}
+
